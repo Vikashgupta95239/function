@@ -1,0 +1,9 @@
+l=[int(x) for x in input().split(",")]
+arr=l
+m=[1,2,3,2,6]
+if(7 not in m):
+    
+#m.remove(m[2])
+    print(m.pop(1))
+print(m)
+
